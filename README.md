@@ -59,8 +59,8 @@ run.conf配置按“环境:key=value”的方式进行配置，key与jmeter统�
 
 parms.conf说明：
 ```
-EmailsTEST=hunk.cui@timanetworks.com  #配置测试邮件组，多个邮箱用逗号隔开
-EmailsPM=hunk.cui@timanetworks.com    #配置项目邮件组，多个邮箱用逗号隔开
+EmailsTEST=sina@sina.com  #配置测试邮件组，多个邮箱用逗号隔开
+EmailsPM=sina@gmail.com    #配置项目邮件组，多个邮箱用逗号隔开
 sendEmail=true  #邮件发送功能开关
 allsuccess=yes  #无需手动配置，程序根据实际情况自动决定是否发送邮件，测试用例全部成功时不发送邮件，统计功能邮件发送不受此配置影响。
 
@@ -68,10 +68,10 @@ allsuccess=yes  #无需手动配置，程序根据实际情况自动决定是否
 #配置发件箱及邮箱服务器等信息
 MAILCMD="
 env MAILRC=/dev/null LC_CTYPE=zh_CN.utf-8 charset=utf-8 send_charset='us-ascii:iso-8859-1:utf-8' \
-  from=fawvwrtmnotify@timanetworks.com \
-  smtp=smtp.timanetworks.com \
-  smtp-auth-user=fawvwrtmnotify \
-  smtp-auth-password=KY8Rgzgw \
+  from=sina@sina.com \
+  smtp=smtp.sina.com \
+  smtp-auth-user=sina \
+  smtp-auth-password=sina888 \
   smtp-auth=login mailx
 "
 
@@ -80,8 +80,7 @@ filter="签名"
 
 #配置要跑的jmeter脚本清单
 runlist="
-Automtion-20200107.jmx
-#RTM-UAT-1.jmx
+test.jmx
 "
 ```
 
