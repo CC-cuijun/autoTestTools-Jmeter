@@ -108,6 +108,9 @@ html统计测试报告：时间戳-testSummaryReport.html
  - 检查jmeter脚本业务线程中是否有《用户定义的变量/User Defined Variables》覆盖了配置变量；
  - 检查run.conf中的配置是否较jmeter脚本testplan中**用户定义的变量**有遗漏；
  - jmeter接口脚本中是否未引用该名称的变量；
+ - mac下sed命令与GNU不一致，在mac下需要安装GNU的sed：
+ > brew install gnu-sed
+ > 在~/.zshrc中配置 alias sed=gsed
 2. 测试结果不符合实际
  - 检查jmeter脚本中的断言设置是否合理，是否符合接口或业务定义；
  - 检查筛选条件的配置；
