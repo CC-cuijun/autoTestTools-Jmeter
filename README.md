@@ -5,19 +5,19 @@
     	├── autoTestReports          测试报告文件目录
 	    	├── xxx1.log                 jmeter原始报告日志
   	    	└── xxx1.log.html            html报告
-	    └── autoTestTools-Jmeter         测试部署目录
+	└── autoTestTools-Jmeter         测试部署目录
     		├── apache-jmeter-x.x.x      jmeter程序包
-    	    ├── historyReports.sh        测试报告归档脚本 
+    	        ├── historyReports.sh        测试报告归档脚本 
 	    	├── htmlReport.sh            html报告生成脚本
-		    ├── init.sh                  初始化脚本
-		    ├── parms.conf               脚本基础配置
-		    ├── sendmail.sh              发送邮件脚本        
-		    ├── logs                     运行日志文件目录
-		    ├── testData                 测试数据存放目录
-		    ├── README.md                自述文件
-		    ├── run.conf                 jmeter脚本参数配置文件
-		    ├── run.sh                   测试运行脚本
-		    └── testscripts              测试脚本存放目录
+		├── init.sh                  初始化脚本
+		├── parms.conf               脚本基础配置
+		├── sendmail.sh              发送邮件脚本        
+		├── logs                     运行日志文件目录
+		├── testData                 测试数据存放目录
+		├── README.md                自述文件
+		├── run.conf                 jmeter脚本参数配置文件
+		├── run.sh                   测试运行脚本
+		└── testscripts              测试脚本存放目录
 		        ├── xxx1.jmx                 脚本1
 		        └── xxx2.jmx                 脚本2
 ## 使用方式
