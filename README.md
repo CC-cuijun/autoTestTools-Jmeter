@@ -115,7 +115,7 @@ html统计测试报告：时间戳-testSummaryReport.html
  - mac下sed命令与GNU不一致，在mac下需要安装GNU的sed：  
  > brew install gnu-sed  
  > 可在~/.zshrc中配置 alias sed=gsed  
- > 也可直接使用gsed命令，和linxu下的sed一致
+ > 也可直接使用gsed命令，和linux下的sed一致
 2. 测试结果不符合实际
  - 检查jmeter脚本中的断言设置是否合理，是否符合接口或业务定义；
  - 检查筛选条件的配置；
