@@ -1,5 +1,7 @@
 # 自动化测试包使用说明
 
+自己基于jmeter做了一套简陋的自动化测试框架，有很多不足，也有很多可以优化的空间，使用过程中有不便或不满足场景的可电邮本人，或提交合并请求，共同学习，邮箱地址见readme末尾，
+
 ## 自动化测试包目录介绍
 
     ├─ opt
@@ -112,7 +114,8 @@ html统计测试报告：时间戳-testSummaryReport.html
  - jmeter接口脚本中是否未引用该名称的变量；
  - mac下sed命令与GNU不一致，在mac下需要安装GNU的sed：  
  > brew install gnu-sed  
- > 在~/.zshrc中配置 alias sed=gsed
+ > 可在~/.zshrc中配置 alias sed=gsed  
+ > 也可直接使用gsed命令，和linxu下的sed一致
 2. 测试结果不符合实际
  - 检查jmeter脚本中的断言设置是否合理，是否符合接口或业务定义；
  - 检查筛选条件的配置；
